@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <script src="BMI_script.js"></script>
+    <link rel="stylesheet" href="bmi_calculator.css">
+</head>
+<body>
+    <div class="container"> 
+
+        <h1>Body Mass Index Calculator(BMI)</h1>
+        <hr> 
+
+   <!-- Option for providing height and weight to the user
+    
+    The body mass index (BMI) calculator estimates the
+     amount of body fat a person has in relation to age, 
+     height, and weight.
+    -->
+<div id="reset">
+        <div id="measurement">
+        <p>Height (in cm): <input type="text" id="height" placeholder = "enter your height"></p>  
+
+          <p>   Weight (in kg): <input type="text" id="weight" placeholder = "enter your weight">  </p>
+        </div>
+        <div id="calculate">
+        <p> Your BMI: <button id="btn">CALCULATE BMI</button> </p>
+         
+    </div>
+</div>
+        
+         <div id="result"></div> 
+    <div class="box">
+        <div id="under" >Underweight <br> < 18.5 </div>
+        <div id="normal">Normalweight <br> 18.5 - 25</div>
+        <div id="over" >Overweight <br> 25 - 30</div>
+        <div id="obese">Obese <br> > 30</div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
