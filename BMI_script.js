@@ -51,7 +51,7 @@ function calculateBMI() {
 
         let bmi = (weight / ((height * height)  
 
-                            / 10000)).toFixed(2); 
+                            / 1000)).toFixed(2); 
 
   // checking for bmi conditions 
 
